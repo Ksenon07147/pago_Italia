@@ -1,0 +1,140 @@
+﻿/* Center website */
+.main {
+	max-width: 1080px;
+	margin: auto;
+}
+
+header{
+	vertical-align:middle; 
+	text-align:center;
+	margin:50px 0px;
+}
+
+nav{
+	font-family:Garamond, sans-serif;
+    list-style:none;
+    text-align:center;
+        
+}
+nav li{
+    display:inline;
+   
+}
+nav a{
+    display:inline-block;
+    padding:0px 40px; 
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+}
+		
+a:focus {
+    color: grey;
+}
+
+a:hover {
+    color: grey;
+}
+
+a.active {
+    color: grey;
+}
+
+body {
+	background-color: #e2e2e2;
+	padding: 20px;
+	font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif
+}
+
+#footer{
+	display:block;
+	padding-top:15px;
+	padding-bottom:20px;
+    font-family: "Comic Sans MS";
+    font-size: 100%;
+    background:#DDA199;
+    font-size:1.2em;
+    color:#D63520;
+    border-radius: 10px;
+    text-shadow: 3px 3px #DDA199;
+}
+
+#footer address{
+    font-family: 'Tahoma';
+    display: block;
+    text-align:center;
+    font-size: 0.7em;
+}
+
+#footer shop{	
+	display:block;
+	float: right;
+	text-align:center;
+	padding-right:30px;
+	font-style:inherit;
+	font-size:0.9em;
+}
+
+/*To top button (Testing)*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:grey; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 20px; /* Rounded corners */
+    font-size: 5px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+/*Login Button*/
+#login{
+    /*Set hypertext as a block(become a button)*/
+    display: block;
+    float:right;
+    width: 140px;
+    border-radius: 5px;/*corner round*/
+    /*text setting*/
+    text-align:center;
+    text-decoration: none;
+    color:#444;
+    font-family:Garamond, sans-serif;
+    font-size: 17px;
+    letter-spacing:1.5px;
+    font-weight: bold;
+}
+
+#login:hover{
+	color:#666;
+    background:#dbd6d6;
+}
+
+#logged{
+    /*Set hypertext as a block(become a button)*/
+    display: block;
+    float:right;
+    width: 140px;
+    /*text setting*/
+    text-align:center;
+    text-decoration: none;
+    color:#444;
+    font-family:Garamond, sans-serif;
+    font-size: 17px;
+    letter-spacing:1.5px;
+    font-weight: bold;
+}
+
+
+
+
